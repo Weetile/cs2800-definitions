@@ -1,0 +1,136 @@
+# Design Patterns
+- **Adaptor Pattern**: A design pattern that allows incompatible interfaces to work together.
+- **Architectural Pattern**: A reusable solution to a recurring architectural problem within a given context.
+- **Behavioural Pattern**: A design pattern that focuses on communication between objects.
+- **Bridge Pattern**: A design pattern that decouples an abstraction from its implementation.
+- **Creational Design Pattern**: A design pattern that deals with object creation mechanisms.
+- **Facade Pattern**: A design pattern that provides a simplified interface to a larger body of code.
+- **Factory Pattern**: A design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
+- **MVC Pattern**: Model-View-Controller, a design pattern that separates the presentation, data, and logic layers of an application.
+- **Observer Pattern**: A design pattern where an object maintains a list of its dependents, notifying them of any changes in state.
+- **Singleton Pattern**: A design pattern that ensures a class has only one instance and provides a global point of access to that instance.
+- **Strategy Pattern (State)**: A design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+- **Structural Design Pattern**: Design patterns that deal with object composition to form larger structures.
+- **Visitor Pattern**: A design pattern that separates an algorithm from an object structure by moving the algorithm into separate objects.
+
+# Version Control (Git)
+- **Cherry Pick Merge**: Selectively merging specific changes from one branch to another.
+- **Git add**: Command to stage changes for commit in Git version control.
+- **Git branch**: Command to create, list, or delete branches in Git version control.
+- **Git clone**: Command to clone a repository from a remote source in Git version control.
+- **Git commit**: Command to record changes to the repository in Git version control.
+- **Git Conflict**: Situation where conflicting changes occur during a merge in Git version control.
+- **Git index (Staging Area)**: A temporary storage area in Git where changes are prepared for commit.
+- **Git log**: Command to view commit history in Git version control.
+- **Git merge**: Command to incorporate changes from one branch into another in Git version control.
+- **Git push, pull**: Commands to push changes to or pull changes from a remote repository in Git version control.
+- **Git remote**: Command to manage remote repositories in Git version control.
+- **Git revert, reset**: Commands to undo changes in Git version control.
+- **Git rm**: Command to remove files from the working directory and staging area in Git version control.
+- **Git Tracked/Untracked**: Status of files in Git version control indicating whether they are being tracked or not.
+- **Git: HEAD, ∼ and ˆ**: References in Git version control to the current commit, the parent commit, and the grandparent commit, respectively.
+
+# Software Quality and Maintenance
+- **Checkstyle**: A tool used to enforce coding standards and conventions.
+- **Code Complexity**: The degree of complication in software code, often measured using metrics like cyclomatic complexity.
+- **Code Release/Release Tag**: A specific version of the software code that is marked for release.
+- **Code Reliability**: The trustworthiness of the software to perform as expected under specified conditions.
+- **Code Smells**: Indicators of deeper problems in software code that may need refactoring, usually a result of poor or misguided programming.
+- **Dead Code Smell**: Portions of code that are never executed.
+- **Good Code**: Code that is well-structured, maintainable, and adheres to best practices.
+- **Metrics**: Quantitative measures used to assess various aspects of software quality.
+- **Programming Standards**: Guidelines and conventions followed during software development.
+- **Programming Style**: The manner in which code is written, including formatting, naming conventions, and code structure.
+- **Refactoring**: The process of restructuring existing code without changing its external behavior.
+- **Software Failure**: Deviation of the software from its expected behavior resulting in incorrect or unexpected outcomes.
+- **Software Fault**: A flaw in the software that can lead to a failure under certain conditions.
+- **Software Validation**: The process of ensuring that the software meets the requirements and specifications.
+- **Software Verification**: The process of confirming that the software meets its specified requirements.
+- **Too Few Comments Smell**: Insufficient documentation or comments in code.
+- **Too Many Comments Smell**: Excessive or redundant comments in code.
+
+# Software Development Processes
+- **Back-Porting**: Bringing changes from a newer version of software to an older one.
+- **Feature Branch**: A branch in version control dedicated to developing a specific feature.
+- **Incremental Business Value**: Adding value to the software incrementally.
+- **Incremental Delivery**: Delivering functionality in small, usable increments rather than all at once.
+- **Integration Testing**: Testing conducted to evaluate the interactions between integrated components or systems.
+- **Major Release**: A significant version release that may include new features, significant changes, or improvements.
+- **Minor Release**: A version release that includes minor updates, bug fixes, or enhancements.
+- **Revision Control Branches**: Branches in a version control system used to isolate changes and manage concurrent development efforts.
+- **Revision Control System**: A system for managing changes to documents, programs, and other information stored as computer files.
+- **Scrum Sprint**: A time-boxed iteration in the Scrum framework for completing a set amount of work.
+- **Software Release**: The distribution of a version of software for public use.
+- **Test Driven Development (TDD)**: A software development process where tests are written before the code they are testing.
+- **Waterfall Development**: A traditional software development methodology characterized by sequential phases of planning, development, testing, and deployment.
+
+# Testing
+- **Acceptance Testing**: Testing conducted to determine if the software meets the acceptance criteria and to ensure its readiness for deployment.
+- **Beta Testing**: Testing conducted by end-users in a real environment before the official release.
+- **Black Box Testing**: Testing conducted without knowledge of the internal workings of the software.
+- **Bottom Up Integration Testing**: Testing approach where individual components are tested first before integrating them into larger subsystems.
+- **Capacity Testing**: Testing conducted to evaluate the system's ability to handle a specified load.
+- **Configuration Testing**: Testing conducted to evaluate the behavior of a system under different configurations.
+- **Corridor Testing**: A type of testing that focuses on paths through the software's functionality.
+- **Functional Testing**: Testing conducted to ensure that the software meets functional requirements.
+- **Non-incremental Testing**: Testing conducted without breaking the system into smaller, incremental units.
+- **Regression Testing**: Testing conducted to ensure that changes to the software have not introduced new defects.
+- **Smoke Testing**: Basic testing conducted to verify that the software is stable enough for further testing.
+- **Stress Testing**: Testing conducted to evaluate the system's behavior under extreme conditions.
+- **System Testing**: Testing conducted on a complete, integrated system to evaluate its compliance with specified requirements.
+- **Top Down Integration Testing**: Testing approach where higher-level modules are tested first before integrating lower-level modules.
+- **Unit Testing**: Testing conducted to verify the individual components or units of a software system.
+- **White Box Test**: Testing conducted with knowledge of the internal workings of the software.
+
+# Software Engineering Concepts
+- **Aggregation Relationship**: A type of association where one class contains a collection of other classes.
+- **Cohesion**: The degree to which elements within a module belong together.
+- **Composition Relationship**: A type of association where one class contains another class as a part.
+- **Control Flow Graph**: A graphical representation of the control flow within a program.
+- **Coupling**: The degree of interdependence between software modules.
+- **Delegation**: Passing on responsibility for a task or action to another object.
+- **Double Dispatch**: A mechanism where the method to be called is determined dynamically based on the runtime types of two objects.
+- **Feature Envy**: A code smell where one class excessively uses methods and properties of another class.
+- **Horizontal Slice**: A complete set of features across all layers of an application.
+- **Incremental Business Value**: The value added to a product with each incremental release or update.
+- **Incremental Delivery**: Delivering functionality in small, usable increments rather than all at once.
+- **Indirect Measure**: A measure of software quality derived from other metrics.
+- **Integration Testing**: Testing conducted to evaluate the interactions between integrated components or systems.
+- **IPSE**: Integrated Project Support Environment, a suite of tools used to support software development processes.
+- **Literate Programming**: A programming paradigm where code is interspersed with explanations in natural language.
+- **Major Release**: A significant version release that may include new features, significant changes, or improvements.
+- **Metrics**: Quantitative measures used to assess various aspects of software quality.
+- **Minor Release**: A version release that includes minor updates, bug fixes, or enhancements.
+- **Mock Objects**: Objects used to simulate the behavior of real objects in tests.
+- **Once And Only Once Smell**: A code smell indicating duplication of logic that should only occur once.
+- **Primitive Obsession**: A code smell where primitive data types are overused instead of creating appropriate abstractions.
+- **Programming Standards**: Guidelines and conventions followed during software development.
+- **Programming Style**: The manner in which code is written, including formatting, naming conventions, and code structure.
+- **Refactoring**: The process of restructuring existing code without changing its external behavior.
+- **Regression Testing**: Testing conducted to ensure that changes to the software have not introduced new defects.
+- **Reintegration Merge**: Merging changes from a feature branch back into the main development branch.
+- **Reliability (of Software)**: The ability of software to perform consistently under specified conditions for a defined period.
+- **Revision Control Branches**: Branches in a version control system used to isolate changes and manage concurrent development efforts.
+- **Revision Control System**: A system for managing changes to documents, programs, and other information stored as computer files.
+- **Scrum Sprint**: A time-boxed iteration in the Scrum framework for completing a set amount of work.
+- **Slicing**: Breaking down a larger task or feature into smaller, manageable pieces.
+- **Smoke Testing**: Basic testing conducted to verify that the software is stable enough for further testing.
+- **Software Failure**: Deviation of the software from its expected behavior resulting in incorrect or unexpected outcomes.
+- **Software Fault**: A flaw in the software that can lead to a failure under certain conditions.
+- **Software Release**: The distribution of a version of software for public use.
+- **Software Validation**: The process of ensuring that the software meets the requirements and specifications.
+- **Software Verification**: The process of confirming that the software meets its specified requirements.
+- **System Prototype**: A preliminary version of a system used to demonstrate concepts and gather feedback.
+- **Task**: A unit of work to be completed as part of a project.
+- **Test Driven Development (TDD)**: A software development process where tests are written before the code they are testing.
+- **Test Harness**: A set of tools and utilities used to run automated tests.
+- **Three Way Merge**: Merging changes from two branches with a common ancestor in a version control system.
+- **Too Few Comments Smell**: Insufficient documentation or comments in code.
+- **Too Many Comments Smell**: Excessive or redundant comments in code.
+- **Triangulation and Faking**: Techniques used in testing to create realistic test scenarios or substitute dependencies.
+- **Two Way Merge**: Merging changes from two branches without a common ancestor in a version control system.
+- **UML Class Diagram**: A graphical representation of the structure of a system using classes and their relationships.
+- **UML Class Relationships**: Associations between classes depicted in UML diagrams, such as inheritance, composition, and aggregation.
+- **UML Sequence Diagram**: A type of UML diagram that shows interactions between objects in sequential order.
+- **Vertical Slice**: A cross-section of functionality through all layers of an application.
+- **Waterfall Development**: A traditional software development methodology characterized by sequential phases of planning, development, testing, and deployment.
