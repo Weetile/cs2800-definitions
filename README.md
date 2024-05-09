@@ -1,18 +1,19 @@
 # Design Patterns
-- **Adaptor Pattern**: A design pattern that allows incompatible interfaces to work together.
+### Types of Patterns
 - **Architectural Pattern**: A reusable solution to a recurring architectural problem within a given context.
 - **Behavioural Pattern**: A design pattern that focuses on communication between objects.
-- **Bridge Pattern**: A design pattern that decouples an abstraction from its implementation.
 - **Creational Design Pattern**: A design pattern that deals with object creation mechanisms.
+- **Structural Design Pattern**: Design patterns that deal with object composition to form larger structures.
+### Patterns
+- **Adaptor Pattern**: A structural design pattern that allows objects with incompatible interfaces to collaborate
+- **Bridge Pattern**: A design pattern that decouples an abstraction from its implementation.
 - **Facade Pattern**: A design pattern that provides a simplified interface to a larger body of code.
 - **Factory Pattern**: A design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
 - **MVC Pattern**: Model-View-Controller, a design pattern that separates the presentation, data, and logic layers of an application.
 - **Observer Pattern**: A design pattern where an object maintains a list of its dependents, notifying them of any changes in state.
 - **Singleton Pattern**: A design pattern that ensures a class has only one instance and provides a global point of access to that instance.
 - **Strategy Pattern (State)**: A design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable.
-- **Structural Design Pattern**: Design patterns that deal with object composition to form larger structures.
 - **Visitor Pattern**: A design pattern that separates an algorithm from an object structure by moving the algorithm into separate objects.
-
 # Version Control (Git)
 - **Cherry Pick Merge**: Selectively merging specific changes from one branch to another.
 - **Git add**: Command to stage changes for commit in Git version control.
